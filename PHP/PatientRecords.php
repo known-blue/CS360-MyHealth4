@@ -16,7 +16,7 @@
    echo '&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp'.'<u>Diagnosis: </u></br>';
    if($length == 0)
    {
-      echo '<center> Wow, its looking pretty empty here</center>';
+      echo '<center> You currently have no notes.</center>';
    }
    for($i = 0;$i<$length;$i++)
    {

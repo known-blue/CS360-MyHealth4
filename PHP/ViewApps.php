@@ -23,6 +23,8 @@
       echo'<center>PatientID: ' . $wpdb->last_result[$i]->PatientID. "</center>";
       echo'<center>Patient Name: ' . $wpdb->last_result[$i]->NameFirst." ".
          $wpdb->last_result[$i]->NameLast. "</center>";
+      echo'<center>Date: ' . $wpdb->last_result[$i]->Date . ' Time: ' .
+         $wpdb->last_result[$i]->Time . "</center>";
       if($length > 1 && $i != $length-1) //seperates listings, also checks if its on the last listing
       {
          echo'<center>----------------------------------------------------------</center>';

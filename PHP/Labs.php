@@ -14,7 +14,7 @@
    $length = count($wpdb->last_result);
    if($length == 0)
    {
-      echo '<center> Wow, its looking pretty empty here</center>';
+      echo '<center> You currently have no labs.</center>';
    }
    for($i = 0;$i<$length;$i++)
    {
